@@ -4,7 +4,7 @@
 
 Данный проект содержит реализацию API мобильного приложения "[ПривратникЪ](https://privratnik.net/)", работа с которым осуществляется через телеграм бота.
 
-Основная задача, которую решает данный проект - управление шлагбаумами, используя одну учетную запись в приложении "ПривратникЪ". Т.е. все лица, которые прошли процесс аутентификации (прислали пригласительную команду) могут открывать все шлагбаумы, доступные владельцу номера в оригинальном приложении.
+Основная задача, которую решает данный проект - управление шлагбаумами, используя одну учетную запись в приложении "ПривратникЪ". Т.е. все лица, которые прошли процесс авторизации (прислали пригласительную команду) могут открывать все шлагбаумы, доступные владельцу номера в оригинальном приложении.
 
 ![](https://i.imgur.com/oSkm2jr.gif)
 
@@ -141,8 +141,9 @@ crontab -e
 ## Лицензии
 
 Используя данный бот вы соглашаетесь со следующими лицензиями:
-* [PSF licence](https://docs.python.org/3/license.html#psf-license-agreement-for-python-release)
-* [Apache licence](https://github.com/psf/requests/blob/main/LICENSE)
+* [PSF license](https://docs.python.org/3/license.html#psf-license-agreement-for-python-release)
+* [Apache license](https://github.com/psf/requests/blob/main/LICENSE)
 * [GNU GPL v2.0](https://github.com/eternnoir/pyTelegramBotAPI/blob/master/LICENSE)
+* [MIT license](license.md)
 
 (C) Nikolay Sysoev, ghosteedd, 2024
